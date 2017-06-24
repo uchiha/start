@@ -1,0 +1,7 @@
+external tools config in running maven with eclipse:
+
+working directory: ${workspace_loc:/start}
+maven location: C:\dev\apache-maven-3.3.9\bin\mvn.cmd
+
+Arguments:
+-Dcucumber.options="--glue step_definitions src/test/java/features --snippets camelcase --plugin pretty" test
